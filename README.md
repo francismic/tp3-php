@@ -13,7 +13,3 @@ MP : 123456
 #### UTILISATEUR : L'utilisateur peu voir la collection du vendeur et peu acheter des cartes si il le désire...
 
 #### GUEST : Le visiteur peu voir la collection du vendeur mais si il veut en acheter il doit se faire un compte utilisateur...
-
-
-USERNAME ADMIN : fr.michaud93@gmail.com
-MP : 123456
