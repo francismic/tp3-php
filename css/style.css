@@ -1,0 +1,69 @@
+body {
+  margin: auto;
+  background: #71c7ec;
+  font-family: sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: #005073;
+}
+nav a, .btn{
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+nav a:hover, .btn:hover{
+  background: #71c7ec;
+}
+main{
+padding: 30px;
+}
+input, select {
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin: 5px;
+}
+  .error{
+    color: red;
+  }
+
+.btn{
+
+  margin: 1em;
+}
+
+table{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(32,32,32,.3);
+  background: #fafafa;
+  text-align: center;
+}
+
+th{
+  background: #005073;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+table, th, td {
+  padding: 12px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
